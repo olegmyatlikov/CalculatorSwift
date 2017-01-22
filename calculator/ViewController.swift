@@ -11,21 +11,23 @@ import UIKit
 class ViewController: UIViewController {
 
    
-    var inTheMiddleOFTyping = false
+    private var inTheMiddleOFTyping = false
     
-    var displayValue: Double {
+    private var displayValue: Double {
         get {
             return Double(display.text!)!
         }
         set {
-            display.text = String(newValue)
+            let cutTheNull = Int(newValue)
+            display.text = newValue == Double(cutTheNull) ? String(cutTheNull) : String(newValue)
+            //display.text = String(newValue)
         }
     }
     
-    @IBOutlet weak var display: UILabel!
+    @IBOutlet private weak var display: UILabel!
     
     
-    @IBAction func touchDigit(_ sender: UIButton) {
+    @IBAction private func touchDigit(_ sender: UIButton) {
         let digit = sender.currentTitle!
         
         if inTheMiddleOFTyping {
@@ -40,18 +42,18 @@ class ViewController: UIViewController {
     }
 
     
-    @IBAction func aClear(_ sender: UIButton) {
-        display.text = "0"
-        inTheMiddleOFTyping = false
-    }
     
+    private var calc = modelCalc()
     
-    @IBAction func performOperation(_ sender: UIButton) {
-        inTheMiddleOFTyping = false
-        let mathOperation = sender.currentTitle!
-        if mathOperation == "√" {
-            displayValue = sqrt(displayValue)
+    @IBAction private func performOperation(_ sender: UIButton) {
+        if inTheMiddleOFTyping {
+            calc.setOperand(operand: displayValue)
+            inTheMiddleOFTyping = false
         }
+        if let mathematicalSymbol = sender.currentTitle {
+            calc.performOperation(symbol: mathematicalSymbol)
+        }
+        displayValue = calc.result
     }
     
 }
