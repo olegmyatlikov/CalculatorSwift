@@ -26,6 +26,17 @@ class ViewController: UIViewController {
     
     @IBOutlet private weak var display: UILabel!
     
+    @IBOutlet weak var smallDisplay: UILabel!
+    
+    
+    @IBAction func dot(_ sender: UIButton) {
+        if display.text!.range(of: ".") == nil {
+            display.text = display.text! + sender.currentTitle!
+            inTheMiddleOFTyping = true
+        }
+    }
+    
+    
     
     @IBAction private func touchDigit(_ sender: UIButton) {
         let digit = sender.currentTitle!
@@ -40,10 +51,10 @@ class ViewController: UIViewController {
         inTheMiddleOFTyping = true
         
     }
-
     
     
     private var calc = modelCalc()
+    
     
     @IBAction private func performOperation(_ sender: UIButton) {
         if inTheMiddleOFTyping {

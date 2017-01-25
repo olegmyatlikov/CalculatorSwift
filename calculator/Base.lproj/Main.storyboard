@@ -25,24 +25,24 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Wmq-5X-uhJ">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="137"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="135.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GtW-gS-yCg">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="26"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="25.5"/>
                                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="OriyaSangamMN-Bold" family="Oriya Sangam MN" pointSize="18"/>
                                                 <color key="textColor" red="0.4744605422" green="0.47454428669999998" blue="0.47444945570000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" tag="-2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="35" translatesAutoresizingMaskIntoConstraints="NO" id="4VZ-9u-aJY">
-                                                <rect key="frame" x="0.0" y="26" width="375" height="85"/>
+                                                <rect key="frame" x="0.0" y="25.5" width="375" height="84.5"/>
                                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="70"/>
                                                 <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jsR-62-Lik">
-                                                <rect key="frame" x="0.0" y="111" width="375" height="26"/>
+                                                <rect key="frame" x="0.0" y="110" width="375" height="25.5"/>
                                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="OriyaSangamMN-Bold" family="Oriya Sangam MN" pointSize="18"/>
                                                 <color key="textColor" red="0.47446054220199585" green="0.47454428672790527" blue="0.47444945573806763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -51,13 +51,13 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="4gH-Og-4Ra">
-                                        <rect key="frame" x="0.0" y="137" width="375" height="530"/>
+                                        <rect key="frame" x="0.0" y="135.5" width="375" height="531.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Am6-Q8-OKf">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="106"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="106.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HUZ-nA-cWQ">
-                                                        <rect key="frame" x="0.0" y="0.0" width="75" height="106"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="75" height="106.5"/>
                                                         <color key="backgroundColor" red="1" green="0.43492412567138672" blue="0.23422613739967346" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="30"/>
                                                         <state key="normal" title="AC">
@@ -68,7 +68,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bod-MA-Ewf">
-                                                        <rect key="frame" x="75" y="0.0" width="75" height="106"/>
+                                                        <rect key="frame" x="75" y="0.0" width="75" height="106.5"/>
                                                         <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="30"/>
                                                         <state key="normal" title="π">
@@ -79,7 +79,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PLw-96-dzz">
-                                                        <rect key="frame" x="150" y="0.0" width="75" height="106"/>
+                                                        <rect key="frame" x="150" y="0.0" width="75" height="106.5"/>
                                                         <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="30"/>
                                                         <state key="normal" title="ｅ">
@@ -90,7 +90,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uaU-9k-mRy">
-                                                        <rect key="frame" x="225" y="0.0" width="75" height="106"/>
+                                                        <rect key="frame" x="225" y="0.0" width="75" height="106.5"/>
                                                         <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="30"/>
                                                         <state key="normal" title="←">
@@ -98,7 +98,7 @@
                                                         </state>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="36Q-LU-7zI">
-                                                        <rect key="frame" x="300" y="0.0" width="75" height="106"/>
+                                                        <rect key="frame" x="300" y="0.0" width="75" height="106.5"/>
                                                         <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="30"/>
                                                         <state key="normal" title="÷">
@@ -111,7 +111,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="u5y-3H-OXr">
-                                                <rect key="frame" x="0.0" y="106" width="375" height="106"/>
+                                                <rect key="frame" x="0.0" y="106.5" width="375" height="106"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZcO-1f-gRi">
                                                         <rect key="frame" x="0.0" y="0.0" width="75" height="106"/>
@@ -171,10 +171,10 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="BdM-xN-PWK">
-                                                <rect key="frame" x="0.0" y="212" width="375" height="106"/>
+                                                <rect key="frame" x="0.0" y="212.5" width="375" height="106.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nWw-bI-KgG">
-                                                        <rect key="frame" x="0.0" y="0.0" width="75" height="106"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="75" height="106.5"/>
                                                         <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="30"/>
                                                         <state key="normal" title="sin">
@@ -185,7 +185,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TK5-1R-IX8">
-                                                        <rect key="frame" x="75" y="0.0" width="75" height="106"/>
+                                                        <rect key="frame" x="75" y="0.0" width="75" height="106.5"/>
                                                         <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="30"/>
                                                         <state key="normal" title="4">
@@ -196,7 +196,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVu-DS-Kj5">
-                                                        <rect key="frame" x="150" y="0.0" width="75" height="106"/>
+                                                        <rect key="frame" x="150" y="0.0" width="75" height="106.5"/>
                                                         <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="30"/>
                                                         <state key="normal" title="5">
@@ -207,7 +207,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tqE-pW-n5n">
-                                                        <rect key="frame" x="225" y="0.0" width="75" height="106"/>
+                                                        <rect key="frame" x="225" y="0.0" width="75" height="106.5"/>
                                                         <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="30"/>
                                                         <state key="normal" title="6">
@@ -218,7 +218,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VES-9y-GTY">
-                                                        <rect key="frame" x="300" y="0.0" width="75" height="106"/>
+                                                        <rect key="frame" x="300" y="0.0" width="75" height="106.5"/>
                                                         <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="30"/>
                                                         <state key="normal" title="−">
@@ -231,7 +231,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="16b-52-Wuj">
-                                                <rect key="frame" x="0.0" y="318" width="375" height="106"/>
+                                                <rect key="frame" x="0.0" y="319" width="375" height="106"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GpE-BG-CBC">
                                                         <rect key="frame" x="0.0" y="0.0" width="75" height="106"/>
@@ -291,10 +291,10 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="7fZ-OX-eTB">
-                                                <rect key="frame" x="0.0" y="424" width="375" height="106"/>
+                                                <rect key="frame" x="0.0" y="425" width="375" height="106.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HuP-dn-3Zp">
-                                                        <rect key="frame" x="0.0" y="0.0" width="75" height="106"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="75" height="106.5"/>
                                                         <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="30"/>
                                                         <state key="normal" title="tg">
@@ -305,15 +305,18 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QfP-ey-jtx">
-                                                        <rect key="frame" x="75" y="0.0" width="75" height="106"/>
+                                                        <rect key="frame" x="75" y="0.0" width="75" height="106.5"/>
                                                         <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="30"/>
                                                         <state key="normal" title="∓">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5KE-Hj-Ezd"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6rz-Qc-zgn">
-                                                        <rect key="frame" x="150" y="0.0" width="75" height="106"/>
+                                                        <rect key="frame" x="150" y="0.0" width="75" height="106.5"/>
                                                         <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="30"/>
                                                         <state key="normal" title="0">
@@ -324,15 +327,18 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nAf-Yq-OBc">
-                                                        <rect key="frame" x="225" y="0.0" width="75" height="106"/>
+                                                        <rect key="frame" x="225" y="0.0" width="75" height="106.5"/>
                                                         <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="30"/>
                                                         <state key="normal" title=".">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="dot:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oJl-70-XVS"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lvv-Tn-TRo">
-                                                        <rect key="frame" x="300" y="0.0" width="75" height="106"/>
+                                                        <rect key="frame" x="300" y="0.0" width="75" height="106.5"/>
                                                         <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="40"/>
                                                         <state key="normal" title="=">
@@ -358,6 +364,7 @@
                     </view>
                     <connections>
                         <outlet property="display" destination="4VZ-9u-aJY" id="ukF-TU-9zG"/>
+                        <outlet property="smallDisplay" destination="jsR-62-Lik" id="ESY-Jx-oba"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

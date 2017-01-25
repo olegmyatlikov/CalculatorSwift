@@ -16,14 +16,17 @@ class modelCalc {
         accumulator = operand
     }
     
+    var description = " "
+    
     private var operations : [String: Operations] = [
-        "AC" : Operations.Constants(0),
+        "AC" : Operations.ClearDisplayAndPadding,
         "π" : Operations.Constants(M_PI),
         "ｅ" : Operations.Constants(M_E),
         "√" : Operations.UnaryOperations(sqrt),
         "sin" : Operations.UnaryOperations(sin),
         "cos" : Operations.UnaryOperations(cos),
         "tg" : Operations.UnaryOperations(tan),
+        "∓" : Operations.UnaryOperations({0 - $0}),
         "＋" : Operations.BinaryOperations({$0 + $1}),
         "−" : Operations.BinaryOperations({$0 - $1}),
         "×" : Operations.BinaryOperations({$0 * $1}),
@@ -35,6 +38,7 @@ class modelCalc {
         case Constants(Double)
         case UnaryOperations((Double) -> Double)
         case BinaryOperations((Double, Double) -> Double)
+        case ClearDisplayAndPadding
         case Equals
     }
     
@@ -50,7 +54,10 @@ class modelCalc {
                 pending = PendingBinaryOperation(binaryFunction: function, firstOperand: accumulator)
             case .Equals:
                 executePendingBinaryOperation()
+            case .ClearDisplayAndPadding:
+                clear()
             }
+            
         }
         
     }
@@ -60,6 +67,11 @@ class modelCalc {
             accumulator = pending!.binaryFunction(pending!.firstOperand, accumulator)
             pending = nil
         }
+    }
+
+    private func clear() {
+        accumulator = 0.0
+        pending = nil
     }
     
     private var pending: PendingBinaryOperation?
