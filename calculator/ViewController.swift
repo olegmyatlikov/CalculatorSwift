@@ -18,16 +18,29 @@ class ViewController: UIViewController {
             return Double(display.text!)!
         }
         set {
+            if newValue.isFinite && newValue < Double(Int.max) { // isFinete = не NAN
             let cutTheNull = Int(newValue)
             display.text = newValue == Double(cutTheNull) ? String(cutTheNull) : String(newValue)
-            //display.text = String(newValue)
+            } else {
+            display.text = "Ошибка"
+            }
         }
     }
     
     @IBOutlet private weak var display: UILabel!
     
-    @IBOutlet weak var smallDisplay: UILabel!
-    
+    @IBOutlet private weak var smallDisplay: UILabel!
+
+    @IBAction private func touchDigit(_ sender: UIButton) {
+        let digit = sender.currentTitle!
+        if inTheMiddleOFTyping {
+            let currentlyOnDisplay = display.text!
+            display.text = currentlyOnDisplay + digit
+        } else {
+            display.text = digit
+        }
+        inTheMiddleOFTyping = true
+    }
     
     @IBAction func dot(_ sender: UIButton) {
         if display.text!.range(of: ".") == nil {
@@ -36,25 +49,21 @@ class ViewController: UIViewController {
         }
     }
     
-    
-    
-    @IBAction private func touchDigit(_ sender: UIButton) {
-        let digit = sender.currentTitle!
-        
-        if inTheMiddleOFTyping {
-            let currentlyOnDisplay = display.text!
-            display.text = currentlyOnDisplay + digit
+    @IBAction private func backSpace(_ sender: UIButton) {
+        var dellLastNum = ""
+        var displayTextInArray = Array(display.text!.characters)
+        if displayTextInArray.count == 1 {
+            displayValue = 0
         } else {
-            display.text = digit
+        for i in 0..<(displayTextInArray.count - 1) {
+            dellLastNum = dellLastNum + String((displayTextInArray[i]))
         }
-        
-        inTheMiddleOFTyping = true
-        
+        display.text = dellLastNum
+        }
     }
     
     
     private var calc = modelCalc()
-    
     
     @IBAction private func performOperation(_ sender: UIButton) {
         if inTheMiddleOFTyping {
